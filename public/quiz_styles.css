@@ -69,8 +69,6 @@ header {
 
 .logo {
     margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .logo-img {
@@ -78,9 +76,6 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: black;
 }
 
 h1 {
