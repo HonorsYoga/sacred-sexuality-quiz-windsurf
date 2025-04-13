@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Sexuality Quiz</title>
+    <link rel="stylesheet" href="quiz_styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Honors Yoga Logo" class="logo-img" style="background-color: black;">
+            </div>
+            <h1>Sacred Sexuality Quiz</h1>
+            <p>Discover your sexual self through this interactive journey</p>
+        </header>
+        
+        <!-- Introduction Section -->
+        <section id="intro" class="quiz-section intro-section">
+            <h2>Welcome to Your Journey of Sexual Self-Discovery</h2>
+            <p>This interactive experience will help you discover your sexual self by exploring your dominant sexual archetypes and orgasmic potential. The quiz consists of two parts:</p>
+            
+            <div class="archetype-description">
+                <div class="archetype-icon primal-icon">P</div>
+                <div>
+                    <strong>Primal:</strong> Body-centered, passionate, and sensory. This archetype connects with physical attraction, power dynamics, and raw sexual energy.
+                </div>
+            </div>
+            
+            <div class="archetype-description">
+                <div class="archetype-icon heart-icon">H</div>
+                <div>
+                    <strong>Heart:</strong> Connection-centered, emotional, and intimate. This archetype values vulnerability, safety, and the emotional dimensions of sexuality.
+                </div>
+            </div>
+            
+            <div class="archetype-description">
+                <div class="archetype-icon mind-icon">M</div>
+                <div>
+                    <strong>Mind:</strong> Thought-centered, verbal, and fantasy-driven. This archetype engages with the intellectual aspects of sexuality, including fantasies and conscious awareness.
+                </div>
+            </div>
+            
+            <div class="archetype-description">
+                <div class="archetype-icon energetic-icon">E</div>
+                <div>
+                    <strong>Energetic/Psychic:</strong> Energy-centered, spiritual, and transcendent. This archetype explores the subtle energies, spiritual connection, and transformative potential of sexuality.
+                </div>
+            </div>
+            
+            <p>The quiz also includes an Orgasmic Living Test to explore your orgasmic experiences and potential.</p>
+            
+            <p>Your responses are completely private and will only be used to generate your personalized results. Take your time with each question and answer honestly for the most accurate insights.</p>
+            
+            <div class="navigation">
+                <button id="start-btn">Begin Your Journey</button>
+            </div>
+        </section>
+        
+        <!-- Question Section -->
+        <section id="question-section" class="quiz-section">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="section-indicator">
+                    <div class="section-dot active"></div>
+                    <div class="section-dot"></div>
+                    <div class="section-dot"></div>
+                    <div class="section-dot"></div>
+                    <div class="section-dot"></div>
+                </div>
+            </div>
+            
+            <div id="section-intro">
+                <!-- Section intro will be inserted here -->
+            </div>
+            
+            <div class="question-container">
+                <!-- Question will be inserted here -->
+            </div>
+            
+            <div class="navigation">
+                <button class="back-btn" id="back-btn">Back</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </section>
+        
+        <!-- Results Section -->
+        <section id="results" class="quiz-section">
+            <h2>Your Sacred Sexuality Profile</h2>
+            
+            <div class="chart-container">
+                <!-- Pie chart will be inserted here -->
+            </div>
+            
+            <div class="result-description">
+                <!-- Archetype description will be inserted here -->
+            </div>
+            
+            <div class="recommendations">
+                <!-- Recommendations will be inserted here -->
+            </div>
+            
+            <div class="navigation">
+                <button id="restart-btn">Retake Quiz</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Load scripts -->
+    <script src="quiz_data.js"></script>
+    <script src="quiz_implementation.js"></script>
+</body>
+</html>
